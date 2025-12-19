@@ -86,7 +86,7 @@ st.subheader("Sua Ponte entre Python e a Inteligência Geográfica")
 # Texto introdutório condicional
 if "messages" not in st.session_state:
     st.session_state.messages = []
-    st.info("👋 Olá! Sou seu arquiteto de soluções. Pergunte-me sobre Python e eu te mostrarei como aplicar em **Imagens de Satélite** e **Dados Vetoriais**, com referências técnicas oficiais.")
+    st.info("👋 Olá! Sou seu assistente de soluções. Pergunte-me sobre Python e eu te mostrarei como aplicar em **Imagens de Satélite** e **Dados Vetoriais**, com referências técnicas oficiais.")
 
 # Exibe histórico
 for message in st.session_state.messages:
@@ -147,3 +147,4 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
