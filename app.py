@@ -80,7 +80,7 @@ with st.sidebar:
 
 # 4. Interface Principal
 
-st.title("GeoPython Architect 🌍🐍")
+st.title("GeoPython Assistant 🌍🐍")
 st.subheader("Sua Ponte entre Python e a Inteligência Geográfica")
 
 # Texto introdutório condicional
@@ -145,4 +145,5 @@ st.markdown(
     "GeoPython Architect © 2024 - Pedro Luiz | Engenharia de Dados Geoespaciais"
     "</div>", 
     unsafe_allow_html=True
+
 )
